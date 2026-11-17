@@ -14,7 +14,8 @@ This repository contains the implementation, trained weights and experimental re
 LDASN combines (i) a multi-scale depthwise-separable convolutional extractor with squeeze-and-excitation channel attention, (ii) a saliency-based patch selector that converts feature maps into tokens, and (iii) a four-layer Transformer encoder whose attention output is modulated by a scalar saliency gate. Class imbalance is handled with a weighted sampler and a class-weighted focal loss.
  
 <p align="center">
-  <img src="docs/figures/fig02_architecture_overview.png" width="95%" alt="Overall architecture of LDASN">
+  <img src="Docs%20figures/fig02_architecture_overview.png" width="95%" alt="Overall architecture of LDASN">
+
 </p>
 <p align="center"><em>Figure 1. Overall architecture of LDASN (10,552,721 trainable parameters).</em></p>
 ## Main results
